@@ -189,9 +189,9 @@ button {
 .btn {
     border-radius: 38px;
     display: inline-flex;
-    height: 48px;
+    /* height: 48px; */
     background: #00e1ff;
-    padding: 10px 24px;
+    padding: 20px 24px;
     color: #000;
     font-family: Simpsonfont;
     font-size: 18px;
@@ -270,6 +270,7 @@ button {
     background: url("../img/enter/backgoun.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     will-change: transform, opacity;
     transition: transform 1000ms ease-out, opacity 2s ease-out;
 }
@@ -499,9 +500,9 @@ button {
 
 .hero {
     background: url("../img/enter/Dragon\ Ball\ Z\ backgrounds\,\ Francisco\ Segovia.jpeg");
-    min-height: 90vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
 }
 
@@ -568,6 +569,8 @@ button {
     display: flex;
     flex-direction: column;
     max-width: 1040px;
+    position: relative;
+    z-index: 4;
 }
 
 .about__title {
@@ -642,7 +645,7 @@ button {
     transform: translateX(-50%);
     width: 200px;
     animation: swing-animation 4s infinite ease-in-out;
-    z-index: 99;
+    z-index: 2;
 }
 .swinger1 {
     position: absolute;
@@ -766,11 +769,11 @@ button {
 
 .tokenomics__text {
     margin-bottom: 32px;
-    color: #00e1ff;
+    color: #ffffff;
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -795,10 +798,10 @@ button {
     max-width: max-content;
     margin-bottom: 32px;
     color: #00e1ff;
-    font-family: Bryndan Write;
+    font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
@@ -879,7 +882,8 @@ button {
 }
 
 .tokenomics__value span {
-    font-family: Manrope;
+    font-size: 40px;
+    font-family: 'Simpsonfont';
 }
 
 .buy {
@@ -976,7 +980,7 @@ button {
 .final {
     background: url("../img/final/background.svg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
 }
 
@@ -1050,7 +1054,7 @@ button {
     background: url("../img/footer/background.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -1070,10 +1074,10 @@ button {
 
 .footer__contract {
     color: #000;
-    font-family: Bryndan Write;
+    font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
