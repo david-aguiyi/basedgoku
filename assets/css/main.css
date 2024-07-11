@@ -391,16 +391,18 @@ button {
 }
 
 .header__contract {
-    color: #000000;
+    color: #fbfbfb;
     font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
+    backdrop-filter: blur(51px);
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
     border: 2px solid rgb(0 0 0 / 25%);
     padding: 14px 24px;
+    background-color: #e3828240;
 }
 
 @media screen and (max-width: 880px) {
@@ -623,8 +625,8 @@ button {
     margin-bottom: 24px;
     color: #00e1ff;
     text-align: center;
-    font-family: Manrope;
-    font-size: 24px;
+    font-family: 'Simpsonfont';
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -783,11 +785,12 @@ button {
 
 .tokenomics__text {
     margin-bottom: 32px;
-    color: #1f2527;
-    font-family: 'Manrope';
+    color: #00e1ff;
+    font-family: 'Simpsonfont';
     font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
+    letter-spacing: 0.3px;
+    /* font-style: normal; */
+    /* font-weight: 700; */
     line-height: normal;
 }
 
@@ -816,11 +819,14 @@ button {
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
+    backdrop-filter: blur(30px);
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
+    background-color: #ffffff40;
     border: 2px solid rgb(0 0 0);
     padding: 14px 24px;
+    padding: 14px;
 }
 
 @media screen and (max-width: 580px) {
@@ -1095,6 +1101,7 @@ button {
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
+    backdrop-filter: blur(30px);
     border: 2px solid rgba(0, 0, 0, 0.25);
     padding: 14px 24px;
 }
