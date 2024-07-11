@@ -177,7 +177,9 @@ button {
 
 .container {
     width: 100%;
+    /* position: absolute; */
     max-width: 1380px;
+    top: 0;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -389,7 +391,7 @@ button {
 }
 
 .header__contract {
-    color: #fff;
+    color: #000000;
     font-family: 'Manrope';
     font-size: 20px;
     font-style: normal;
@@ -397,7 +399,7 @@ button {
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
-    border: 2px solid rgba(255, 255, 255, 0.25);
+    border: 2px solid rgb(0 0 0 / 25%);
     padding: 14px 24px;
 }
 
@@ -499,15 +501,27 @@ button {
 }
 
 .hero {
-    background: url("../img/enter/Dragon\ Ball\ Z\ backgrounds\,\ Francisco\ Segovia.jpeg");
+    /* background: url("../img/enter/Dragon\ Ball\ Z\ backgrounds\,\ Francisco\ Segovia.jpeg"); */
     min-height: 100vh;
+    /* height: 0vh; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+#myVideo {
+  position: relative;
+  right: 0;
+  /* height: 100vh; */
+  bottom: 0;
+  /* width: 100%; */
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .hero__container {
     padding-top: 132px;
+    position: absolute;
 }
 
 .hero__title {
@@ -624,7 +638,7 @@ button {
 
 .about__img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 24px;
@@ -769,9 +783,9 @@ button {
 
 .tokenomics__text {
     margin-bottom: 32px;
-    color: #ffffff;
-    font-family: Manrope;
-    font-size: 20px;
+    color: #1f2527;
+    font-family: 'Manrope';
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -785,11 +799,11 @@ button {
 
 .tokenomics__subtitle {
     margin-bottom: 16px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(245 239 239);
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -805,7 +819,7 @@ button {
     line-height: normal;
     text-transform: uppercase;
     border-radius: 38px;
-    border: 2px solid rgba(255, 255, 255, 0.25);
+    border: 2px solid rgb(0 0 0);
     padding: 14px 24px;
 }
 
