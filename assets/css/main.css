@@ -1099,6 +1099,10 @@ button {
     padding: 14px 24px;
 }
 
+.newv{
+    display: none;
+}
+
 @media screen and (max-width: 500px) {
     .footer__contract {
         font-size: 3.8vw;
@@ -1106,6 +1110,9 @@ button {
     }
     .swinger, .swinger2, .swinger3{
         display: none;
+    }
+    .newv{
+        display: block;
     }
 }
 
