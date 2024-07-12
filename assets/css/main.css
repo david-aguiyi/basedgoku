@@ -237,7 +237,7 @@ button {
         #000 1.92034px -0.558831px 0px;
     color: #00e1ff;
     font-family: Simpsonfont;
-    font-size: 24px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -246,7 +246,7 @@ button {
 .logo__text sub {
     position: absolute;
     right: -11px;
-    top: 13px;
+    top: 25px;
     transform: rotate(-3.649deg);
     color: #fff;
 }
