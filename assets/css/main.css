@@ -88,6 +88,10 @@ video {
     vertical-align: baseline;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 article,
 aside,
 details,
@@ -392,7 +396,7 @@ button {
 
 .header__contract {
     color: #fbfbfb;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-size: 20px;
     font-style: normal;
     backdrop-filter: blur(51px);
@@ -512,13 +516,13 @@ button {
 }
 
 #myVideo {
-  position: relative;
-  right: 0;
-  /* height: 100vh; */
-  bottom: 0;
-  /* width: 100%; */
-  min-width: 100%;
-  min-height: 100%;
+    position: relative;
+    right: 0;
+    /* height: 100vh; */
+    bottom: 0;
+    /* width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .hero__container {
@@ -625,8 +629,8 @@ button {
     margin-bottom: 24px;
     color: #00e1ff;
     text-align: center;
-    font-family: 'Simpsonfont';
-    font-size: 30px;
+    font-family: "Simpsonfont";
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -634,7 +638,7 @@ button {
 
 @media screen and (max-width: 640px) {
     .about__text {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
@@ -671,7 +675,8 @@ button {
     width: 200px;
     animation: swing-animation 4s infinite ease-in-out;
     z-index: 2;
-}.swinger2 {
+}
+.swinger2 {
     position: absolute;
     top: 50px;
     left: 75%;
@@ -786,7 +791,7 @@ button {
 .tokenomics__text {
     margin-bottom: 32px;
     color: #00e1ff;
-    font-family: 'Simpsonfont';
+    font-family: "Simpsonfont";
     font-size: 30px;
     letter-spacing: 0.3px;
     /* font-style: normal; */
@@ -815,7 +820,7 @@ button {
     max-width: max-content;
     margin-bottom: 32px;
     color: #00e1ff;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -901,9 +906,20 @@ button {
     text-transform: uppercase;
 }
 
-.tokenomics__value span {
+.quote{
+    color: white;
+    margin-right: 3rem;
     font-size: 40px;
-    font-family: 'Simpsonfont';
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tokenomics__value span {
+    font-size: 30px;
+    font-family: "Simpsonfont";
 }
 
 .buy {
@@ -1094,7 +1110,7 @@ button {
 
 .footer__contract {
     color: #000;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1106,7 +1122,7 @@ button {
     padding: 14px 24px;
 }
 
-.newv{
+.newv {
     display: none;
 }
 
@@ -1115,20 +1131,27 @@ button {
         font-size: 3.8vw;
         padding: 10px;
     }
-    .swinger, .swinger2, .swinger3{
+    .swinger,
+    .swinger2,
+    .swinger3 {
         display: none;
     }
-    .newv{
+    .newv {
         display: block;
     }
 }
-
 
 .footer__actions {
     display: flex;
     gap: 12px;
 }
 
+sub.blur-sub {
+    color: #00e1ff;
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
 .footer__actions .btn {
     background: #000;
     color: #00e1ff;
