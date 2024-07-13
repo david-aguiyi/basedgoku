@@ -197,12 +197,13 @@ button {
     display: inline-flex;
     /* height: 48px; */
     background: #00e1ff;
-    padding: 20px 24px;
+    padding: 10px 10px;
     color: #000;
     font-family: Simpsonfont;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    margin-top: 5px;
     line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
@@ -621,7 +622,7 @@ button {
 
 @media screen and (max-width: 425px) {
     .about__title {
-        font-size: 28px;
+        font-size: 40px;
     }
 }
 
