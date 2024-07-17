@@ -147,6 +147,23 @@ table {
     src: url("../fonts/Saiyan-Sans\ Right\ Oblique.ttf") format("opentype");
 }
 
+.widget-container {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Blue shadow */
+    background-color: #2d288f; /* White background */
+    max-width: 420px;
+    margin: auto;
+}
+
+iframe {
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 450px;
+}
+
 *,
 *::after,
 *::before {
@@ -907,7 +924,7 @@ button {
     text-transform: uppercase;
 }
 
-.quote{
+.quote {
     color: white;
     margin-right: 3rem;
     font-size: 40px;
